@@ -36,6 +36,42 @@
       "artifacts": [
         "SimpleStorage"
       ]
+    },
+    "/home/usman-dev/learn-solidity-with-usman/hardhat-simple-storage/contracts/SimpleStorage.sol": {
+      "lastModificationDate": 1714646655597,
+      "contentHash": "8dd9457471f2388495f282bda9c26633",
+      "sourceName": "contracts/SimpleStorage.sol",
+      "solcConfig": {
+        "version": "0.8.23",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.23"
+      ],
+      "artifacts": [
+        "SimpleStorage"
+      ]
     }
   }
 }
