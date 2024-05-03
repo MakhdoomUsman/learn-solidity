@@ -38,8 +38,8 @@
       ]
     },
     "/home/usman-dev/learn-solidity-with-usman/hardhat-simple-storage/contracts/SimpleStorage.sol": {
-      "lastModificationDate": 1714646655597,
-      "contentHash": "8dd9457471f2388495f282bda9c26633",
+      "lastModificationDate": 1714734849069,
+      "contentHash": "3f7659389b009e4edc25b1c26058d33b",
       "sourceName": "contracts/SimpleStorage.sol",
       "solcConfig": {
         "version": "0.8.23",
@@ -62,6 +62,9 @@
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": false
           }
         }
       },

@@ -23,9 +23,9 @@ contract SimpleStorage {
         return favoriteNumber;
     }
 
-    function add() public pure returns (uint256) {
-        return 1 + 1;
-    }
+    // function add() public pure returns (uint256) {
+    //     return 1 + 1;
+    // }
 
     //calldata, memory, storage:: One of them should be assign to string, array or struct when we passes it to function perameters
     //  memory:: Tempory variable that can be modified

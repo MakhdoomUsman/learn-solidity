@@ -7,10 +7,10 @@ async function main() {
     console.log("Deploying!!")
     const simpleStorage = await SimpleStorageFacotry.deploy()
     console.log(`'Deployed ', ${simpleStorage.target}`);
-    console.log("network", network.config);
+    // console.log("network", network.config);
 
     if (network.config.chainId === 11155111 && process.env.ETHERSCAN_API_KEY) {
-        await simpleStorage.deploymentTransaction().wait(6);
+        await simpleStorage.deploymentTransaction().wait(2);
         await verify(simpleStorage.target, [])
     }
     // await simpleStorage.deployed()
